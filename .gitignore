@@ -18,6 +18,19 @@ target/
 *.ipr
 idea/
 
+### Maven ###
+log/
+target/
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+!**/src/main/**/target/
+!**/src/test/**/target/
+.mvn/
+
 ### Eclipse ###
 .apt_generated
 .classpath
